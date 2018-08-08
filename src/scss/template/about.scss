@@ -1,0 +1,22 @@
+.border-coffee {
+  background: url("../images/intermediocafe.png") repeat-x center;
+  height: 7.4rem;
+  top: -5.9rem;
+  position: absolute !important;
+  width: 100%;
+}
+.border-coffee-b {
+  background: url("../images/intermediocafe.png") repeat-x center;
+  height: 7.4rem;
+  bottom: -5.9rem;
+  transform: rotate(180deg);
+  position: absolute !important;
+  width: 100%;
+}
+.border-red {
+  background: url("../images/intermediorojo.png") repeat-x center;
+  height: 7.4rem;
+  top: -5.9rem;
+  position: absolute !important;
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+footer{
+  border-top: .4rem solid #782a0b;
+  background: url("../images/textura-footer.png") repeat center;
+  font-family: 'Roboto', sans-serif;
+  padding: 4rem 0 1rem;
+  li{
+    padding-bottom: .5rem;
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+    a{
+      color: #782a0b
+    }
+  }
+  h3{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fdc801;
+    font-family: 'Permanent Marker', cursive;
+    margin: .5rem 0;
+  }
+  button{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    background: #782a0b !important;
+    border-radius: 3rem !important;
+    padding: 0 5rem !important;
+    min-height: 2.7rem !important;
+  }
+}
+.Footer-formContainer{
+  background: #ff281f;
+  border-radius: .4rem;
+  padding: .5rem 3rem;
+  input{
+    padding: 0.4rem 1.5rem !important;
+    border-radius: 0 !important;
+    margin-bottom: .3rem;
+    font-size: 1.2rem !important;
+  }
+  textarea{
+    border-radius: 0 !important;
+    font-size: 1.2rem !important;
+    height: 11rem;
+  }
+  form{
+      .first{
+        padding-right: .8rem;
+      }
+      .last{
+        padding-left: .8rem;
+      }
+  }
+}
+.Foot-terms{
+  color: white;
+  font-size: 1.4rem;
+  margin: 1.6rem 0 0rem;
+  label{
+    left: -2rem;
+  }
+}
+.artico{
+  margin: 3rem auto 0;
+}
+.Footer-links{
+  margin-top: 3.5rem;
+}
+.Footer-social{
+  margin-top: 1rem;
+}
+.Footer-linksPoint{
+  border-radius: 5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: .4rem;
+  background: #FF6C4A;
+  display: inline-block;
+  vertical-align: middle;
+}
