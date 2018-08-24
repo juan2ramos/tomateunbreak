@@ -103,11 +103,11 @@
         </ul>
     </section>
     <main class="container row">
-        <section class="Categories col-3">
+        <section class="Categories col-16 col-l-3">
             <h2>Categorias</h2>
             <?php get_sidebar() ?>
         </section>
-        <section class="Post col-9 row justify-between ">
+        <section class="Post col-16 col-l-9 row justify-between ">
 
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div>
@@ -119,10 +119,7 @@
             <?php endif; ?>
 
         </section>
-        <section class="Sidebar col-4">
-            <figure>
-                <img src="<?php bloginfo('template_url') ?>/public/images/pauta.png" alt="">
-            </figure>
+        <section class="Sidebar col-16 col-l-4 ">
             <h2 class="title">Post recientes</h2>
 
         </section>
