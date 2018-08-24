@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php echo do_shortcode("[rev_slider alias='memes']"); ?>
+<?php echo do_shortcode("[rev_slider alias='principal']"); ?>
     <main class="container row">
         <div class="space col-16"></div>
         <section class="Categories col-4">
