@@ -1,4 +1,4 @@
-<ul class="is-list-less  Categories-all ">
+<ul class="is-list-less  Categories-all <">
     <li><a href="/category/memes/">
             <svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1"
                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

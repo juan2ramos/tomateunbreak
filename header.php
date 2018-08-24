@@ -24,7 +24,7 @@
 <header class="Header">
     <div class=" row container justify-between">
         <figure class="Header-image">
-            <img src="<?php bloginfo('template_url') ?>/public/images/logo-refribreak.png" alt="">
+            <a href="/"><img src="<?php bloginfo('template_url') ?>/public/images/logo-refribreak.png" alt=""></a>
         </figure class>
         <form action="" class="Header-search">
             <input type="text" name="" placeholder="Buscar">

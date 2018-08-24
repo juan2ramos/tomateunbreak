@@ -17,16 +17,15 @@
                 <?php
                 while (have_posts()) : the_post(); ?>
                     <article class="col-5">
-                        <a href="">
+                        <a href="<?php the_permalink();?>">
                             <figure>
                                 <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="homepage">
-                                <p><?php the_excerpt() ?></p>
+                                <p><?php the_title() ?></p>
                             </figure>
                         </a>
                     </article>
 
                 <?php endwhile;
-
             else: ?>
                 <p></p>
             <?php endif; ?>

@@ -103,11 +103,11 @@
         </ul>
     </section>
     <main class="container row">
-        <section class="Categories col-4">
+        <section class="Categories col-16 col-l-4">
             <h2>Categorias</h2>
             <?php get_sidebar() ?>
         </section>
-        <section class="Posts col-12 row justify-between ">
+        <section class="Posts col-16   col-l-12 row justify-between ">
             <article class="col-5">
                 <a href="">
                     <figure>
@@ -201,15 +201,15 @@
         </section>
         <div class="row is-full-width">
             <div class="col-4"></div>
-            <ul class="Pagination col-12 row is-list-less justify-center">
-                <li><<</li>
+            <ul class="Pagination col-16 col-l-12 row is-list-less justify-center">
+                <!--<li></li>-->
                 <li class="active">1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>...</li>
-                <li>100</li>
-                <li>>></li>
-            </ul>
-        </div>
-    </main>
+                <!--<li>2</li>
+               <li>3</li>
+               <li>...</li>
+               <li>100</li>
+               <li>>></li>-->
+           </ul>
+       </div>
+   </main>
 <?php get_footer();
