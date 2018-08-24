@@ -1,0 +1,148 @@
+.Order {
+  padding: 3rem 0 6rem;
+  font-size: 2rem;
+  a {
+    color: black;
+    padding: 0 1rem;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  svg {
+    vertical-align: middle;
+  }
+}
+
+.Categories {
+  h2 {
+    color: var(--secondary-color);
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0 0 2rem;
+  }
+  li {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    margin: 1rem 0;
+  }
+  a {
+    color: black;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  svg {
+    vertical-align: middle;
+  }
+}
+
+.Posts {
+  align-content: baseline;
+  figure {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    &:before {
+      position: absolute;
+      content: '';
+      height: 100%;
+      width: 90%;
+      z-index: 1;
+      left: -20%;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid #fff;
+      transition: all 0.4s ease-in-out;
+      transform: skewX(-30deg) translateX(-80%);
+      box-shadow: .2rem 0 1rem rgba(0, 0, 0, 0.3);
+    }
+    &:hover:before {
+      transform: skewX(-30deg) translateX(0px);
+      transition: all 0.35s ease-in-out;
+    }
+    &:hover p {
+      transition: all 0.35s ease-in-out;
+      opacity: 1;
+      transition-delay: 0.2s;
+    }
+  }
+  a{
+    color: black;
+    &:hover{
+      opacity: 1;
+    }
+  }
+  p {
+    padding-left: 3.4rem;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 70%;
+    z-index: 1;
+    opacity: 0;
+    font-weight: 500;
+  }
+}
+
+.Pagination{
+  width: 100%;
+  margin: 3rem 0;
+  li{
+    padding: 1rem 0 .8rem;
+    margin: 0 .5rem;
+    background: #ffd05e;
+    width: 4rem;
+    text-align: center;
+    color: #575756;
+    &.active{
+      background: #575756;
+      color: #ffd05e;
+    }
+  }
+}
+.space{
+  margin: 4rem 0;
+}
+.Category-title{
+  margin: auto;
+  h1{
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto 3rem;
+    background: var(--primary-color);
+    color: white;
+    font-size: 4rem;
+    padding: 1rem 2rem;
+    outline: .2rem solid #f59e1f;
+    border: .1rem solid;
+  }
+}
+.title{
+  text-align: center;
+  margin: 2rem auto   !important;;
+  background: var(--primary-color);
+  color: white !important;
+  font-size: 3rem;
+  padding: 1rem 2rem;
+  outline: .2rem solid #f59e1f;
+  border: .1rem solid;
+
+}
+.Sidebar{
+  padding: 0 1rem;
+}
+.Post{
+  padding: 0 2rem;
+  align-content: baseline;
+  h1{
+    margin: 0 0 2rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+  }
+}

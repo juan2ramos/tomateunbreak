@@ -1,0 +1,22 @@
+.Header{
+  background-color: #f1f1f1;
+  padding: .5rem .5rem .7rem;
+}
+.Header-image{
+  max-width: 10rem;
+}
+.Header-search{
+  position: relative;
+  input{
+    padding: .8rem 1.6rem !important;
+  }
+  button{
+    position: absolute;
+    min-width: auto;
+    min-height: auto;
+    padding: 0;
+    background: none;
+    top: .6rem;
+    right: 1rem;
+  }
+}

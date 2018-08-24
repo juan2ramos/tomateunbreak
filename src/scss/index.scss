@@ -1,8 +1,8 @@
 @import "~inuit-css";
 
 :root {
-  --primary-color: #fdc800;
-  --secondary-color: #fdc800;
+  --primary-color: #F59E1F;
+  --secondary-color: #A77B50;
   --link-color: #538BF4;
   --fontPrimary--color: #434343;
   --lightGrey-color: #E9ECEF;
@@ -29,10 +29,8 @@
 }
 
 body {
-  //font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  letter-spacing: .2rem;
-  font-family: 'Permanent Marker', cursive;
   overflow-x: hidden;
 }
 
@@ -47,7 +45,6 @@ h3 {
 
 p {
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
 }
 
 .middle-items {
@@ -58,18 +55,6 @@ p {
   margin: auto !important;
 }
 
-.Booking {
-  font-size: 2.6rem;
-  a {
-    background: #FF281F;
-    color: #FFFFFF;
-    display: inline-block;
-    padding: .1rem 2rem;
-    margin-left: 2rem;
-    border-radius: .6rem;
-  }
-}
-
 .wpb_gallery {
   a {
     padding: .5rem;
@@ -77,3 +62,5 @@ p {
 }
 
 @import "template/header";
+@import "template/home";
+@import "template/footer";
