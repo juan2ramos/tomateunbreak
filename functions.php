@@ -1,7 +1,9 @@
 <?php
 
 //add image in posts
-add_theme_support('post-thumbnails');
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 300, 300 );
+add_image_size( 'homepage', 270, 270, array( 'right', 'bottom' ));
 /**
  * define('themeDir', get_template_directory() . '/');
  * require(themeDir . 'functions/gallery.php');
