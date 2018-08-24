@@ -8,8 +8,11 @@ footer {
 }
 .Info{
   background-color: #673F11;
-  padding: 8rem;
+  padding: 1rem .5rem;
   margin-top: 4rem;
+  @include respond-to(medium){
+    padding: 8rem;
+  }
   h5{
     font-size: 2rem;
     margin:  3rem auto;
@@ -43,4 +46,5 @@ footer {
   margin: auto;
   color: white;
   font-weight: 500;
+
 }

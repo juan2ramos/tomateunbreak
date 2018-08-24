@@ -2264,8 +2264,11 @@ footer {
 
 .Info {
   background-color: #673F11;
-  padding: 8rem;
+  padding: 1rem .5rem;
   margin-top: 4rem; }
+  @media (min-width: 45rem) {
+    .Info {
+      padding: 8rem; } }
   .Info h5 {
     font-size: 2rem;
     margin: 3rem auto;
@@ -2295,5 +2298,17 @@ footer {
   margin: auto;
   color: white;
   font-weight: 500; }
+
+.Categories-all li {
+  display: inline-block; }
+  @media (min-width: 45rem) {
+    .Categories-all li {
+      display: inherit; } }
+
+.Categories-all span {
+  display: none; }
+  @media (min-width: 45rem) {
+    .Categories-all span {
+      display: inherit; } }
 
 /*# sourceMappingURL=main.css.map*/
