@@ -6,16 +6,13 @@
             <h2>Categorias</h2>
             <?php get_sidebar() ?>
         </section>
-
         <section class=" col-12 row justify-between ">
             <div class="Category-title col-16 justify-center">
                 <h1> <?php the_title(); ?></h1>
-            </div>ls
-
+            </div>
             <?php while (have_posts()) : the_post(); ?>
                 <?php the_content() ?>
             <?php endwhile; ?>
-
         </section>
     </main>
 <?php get_footer();
